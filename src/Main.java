@@ -56,12 +56,12 @@ public class Main {
         System.out.printf("👨‍💻 Dev: %s%n", dev2.getNome());
         System.out.printf("📚 Conteúdos Inscritos: %s%n", dev2.getConteudosInscritos());
 
-        dev1.progresso();
+        dev2.progresso();
         System.out.println("\n🔄 Progresso atualizado...");
 
         System.out.printf("📚 Conteúdos Inscritos: %s%n", dev2.getConteudosInscritos());
         System.out.printf("✅ Conteúdos Concluídos: %s%n", dev2.getConteudosConcluidos());
-        System.out.printf("⭐ XP Total: %.2f%n", dev1.calcularTotalXp());
+        System.out.printf("⭐ XP Total: %.2f%n", dev2.calcularTotalXp());
         System.out.println("======================================");
 
 
